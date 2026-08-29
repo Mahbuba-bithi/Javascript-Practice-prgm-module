@@ -15,11 +15,11 @@
 
 // console.log(newFruits)
 
-let fruits = ["apple","mang0","lichi","watermelon"]
+//  let fruits = ["apple","mang0","lichi","watermelon"]
 
-let customFruits = fruits.filter((f) => f.length>5 );
+//  let customFruits = fruits.filter((f) => f.length>5 );
 
-console.log(customFruits);
+//  console.log(customFruits);
 
-   
+
 
