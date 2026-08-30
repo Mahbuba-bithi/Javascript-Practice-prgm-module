@@ -14,7 +14,13 @@ let taskList =  document.getElementById("tasklist")
 
 //funtion na likhle oo hobe cleaner code...
  addBtn.addEventListener("click",() => {
-     console.log(taskInput.value);
+    
+let li = document.createElement("li");
+li.textContent = taskInput.value ;
+
+taskList.appendChild(li);
+
+    
   })
 
 //enter press kore korar jonne jeivabe 
@@ -23,3 +29,10 @@ taskInput.addEventListener("keydown",(event) =>{
         console.log("enter passed",taskInput.value)
     }
 })
+
+//Ccreate element
+
+// let li = document.createElement("li");
+// li.textContent = "learn js ";
+// console.log(li)
+// taskList.appendChild(li);
